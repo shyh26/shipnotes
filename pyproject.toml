@@ -1,5 +1,5 @@
 [project]
-name = "changeloggen"
+name = "shipnotes"
 version = "0.1.0"
 description = "Generate user-friendly changelogs from git history"
 authors = [{ name = "shyh26", email = "shyh26@users.noreply.github.com" }]
@@ -26,7 +26,7 @@ dependencies = [
 ]
 
 [project.scripts]
-changeloggen = "changeloggen.cli:main"
+shipnotes = "changeloggen.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/changeloggen"]
