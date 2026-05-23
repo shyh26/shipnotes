@@ -1,16 +1,16 @@
-# changeloggen
+# shipnotes
 
 Generate beautiful changelogs from git history. Conventional commits in, user-friendly release notes out.
 
 ## What it does
 
-You write [conventional commits](https://www.conventionalcommits.org/). changeloggen reads your git history and turns it into a clean, categorized changelog your users will actually read.
+You write [conventional commits](https://www.conventionalcommits.org/). shipnotes reads your git history and turns it into a clean, categorized changelog your users will actually read.
 
 ## Quick start
 
 ```bash
-pip install changeloggen
-changeloggen generate
+pip install shipnotes
+shipnotes generate
 ```
 
 ## Example output
@@ -54,3 +54,9 @@ changeloggen generate
 ## Tech stack
 
 Python, Typer, Rich, Git
+
+## More tools
+
+- [pingbot](https://github.com/shyh26/pingbot) — dead-simple cron job monitor with Telegram alerts
+- [envyzer](https://github.com/shyh26/envyzer) — .env file validator and diff tool
+- [tokenalyzer](https://github.com/shyh26/tokenalyzer) — AI coding token usage & cost analyzer
